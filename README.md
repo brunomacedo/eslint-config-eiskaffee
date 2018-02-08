@@ -29,7 +29,7 @@ Create this command in your `package.json` to fix automatically litte bugs like 
 
 ```json
 "scripts": {
-	"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\""
+  "esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\""
 }
 ```
 
