@@ -1,0 +1,32 @@
+{
+	"name": "eslint-config-eiskaffee",
+	"version": "1.0.0",
+	"description": "It is just a simple styleguide",
+	"main": "index.js",
+	"scripts": {
+		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\"",
+		"install": "npm i -D eslint eslint-find-rules eslint-plugin-import eslint-plugin-react",
+		"preinstall": "npm run install"
+	},
+	"files": [
+		"rules",
+		"screenshot",
+		".eslintrc",
+		"index.js"
+	],
+	"keywords": [
+		"styleguide",
+		"javascript",
+		"eslint",
+		"lint",
+		"tidy-code"
+	],
+	"author": "Bruno Macedo <contato@brunomacedo.com.br> (https://brunomacedo.com.br/)",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^4.17.0",
+		"eslint-find-rules": "^3.1.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-react": "^7.6.1"
+	}
+}
