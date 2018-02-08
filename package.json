@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "It is just a simple styleguide",
 	"main": "index.js",
 	"scripts": {
@@ -30,8 +30,10 @@
 	"author": "Bruno Macedo <contato@brunomacedo.com.br> (https://brunomacedo.com.br/)",
 	"license": "MIT",
 	"dependencies": {
+		"eslint-find-rules": "^3.1.1"
+	},
+	"devDependencies": {
 		"eslint": "^4.17.0",
-		"eslint-find-rules": "^3.1.1",
 		"eslint-plugin-import": "^2.8.0",
 		"eslint-plugin-react": "^7.6.1"
 	}
