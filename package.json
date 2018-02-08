@@ -1,11 +1,10 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "It is just a simple styleguide",
 	"main": "index.js",
 	"scripts": {
-		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\"",
-		"install": "npm install --save-dev eslint eslint-plugin-react eslint-plugin-import"
+		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\""
 	},
 	"files": [
 		"rules",
@@ -30,9 +29,12 @@
 	"author": "Bruno Macedo <contato@brunomacedo.com.br> (https://brunomacedo.com.br/)",
 	"license": "MIT",
 	"dependencies": {
-		"eslint-find-rules": "^3.1.1"
+		"eslint": "^4.17.0",
+		"eslint-find-rules": "^3.1.1",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-react": "^7.6.1"
 	},
-	"devDependencies": {
+	"peerDependencies": {
 		"eslint": "^4.17.0",
 		"eslint-plugin-import": "^2.8.0",
 		"eslint-plugin-react": "^7.6.1"
