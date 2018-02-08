@@ -1,11 +1,11 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "It is just a simple styleguide",
 	"main": "index.js",
 	"scripts": {
 		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\"",
-		"prepare": "npm i -D eslint eslint-plugin-react eslint-plugin-import"
+		"install": "npm install --save-dev eslint eslint-plugin-react eslint-plugin-import"
 	},
 	"files": [
 		"rules",
