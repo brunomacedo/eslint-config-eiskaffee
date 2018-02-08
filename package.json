@@ -3,7 +3,11 @@
 	"version": "1.0.0",
 	"description": "It is just a simple styleguide",
 	"main": "index.js",
-	"scripts": {},
+	"scripts": {
+		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\"",
+		"install": "npm i -D eslint eslint-find-rules eslint-plugin-import eslint-plugin-react",
+		"preinstall": "npm run install"
+	},
 	"files": [
 		"rules",
 		"screenshot",
