@@ -21,6 +21,13 @@
 		"lint",
 		"tidy-code"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/brunomacedo/eslint-config-eiskaffee.git"
+	},
+	"bugs": {
+		"url": "https://github.com/brunomacedo/eslint-config-eiskaffee/issues"
+	},
 	"author": "Bruno Macedo <contato@brunomacedo.com.br> (https://brunomacedo.com.br/)",
 	"license": "MIT",
 	"devDependencies": {
