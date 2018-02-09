@@ -1,4 +1,4 @@
-# ESLint Simple Config Eiskaffee
+# ESLint simple config Eiskaffee
 
 It is just a simple styleguide, so If you prefer indentation with tabs and if you would like to contribute to the project, be free.
 
