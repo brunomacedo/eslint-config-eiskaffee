@@ -47,4 +47,4 @@ If you know how to configure it in another editors, just contribute with this pr
 "eslint.autoFixOnSave": true
 ```
 
-![eslint-magic](screenshot/example.gif)
+![eslint-magic](screenshot/App.gif)
