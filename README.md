@@ -38,7 +38,7 @@ Create this command in your `package.json` to fix automatically litte bugs like 
 npm run esfix
 ```
 
-## Fix on save
+## Auto fix on save
 
 If you've been using VSCode, try this config below in your `vscode-settings`. It should be fix your code from the **ESLint** config.
 If you know how to configure it in another editors, just contribute with this project ;)

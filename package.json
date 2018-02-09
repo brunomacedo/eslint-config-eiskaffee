@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"description": "It is just a simple styleguide, so If you prefer indentation with tabs and if you would like to contribute to the project, be free.",
 	"main": "index.js",
 	"scripts": {
