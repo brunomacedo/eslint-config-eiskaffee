@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.8",
-	"description": "It is just a simple styleguide",
+	"version": "1.0.9",
+	"description": "It is just a simple styleguide, so If you prefer indentation with tabs and if you would like to contribute to the project, be free.",
 	"main": "index.js",
 	"scripts": {
 		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\""
@@ -17,7 +17,8 @@
 		"javascript",
 		"eslint",
 		"lint",
-		"tidy-code"
+		"tidy-code",
+		"onsave"
 	],
 	"repository": {
 		"type": "git",
