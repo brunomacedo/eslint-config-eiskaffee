@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.17",
+	"version": "1.0.18",
 	"description": "It is just a simple styleguide.",
 	"main": "index.js",
 	"scripts": {
