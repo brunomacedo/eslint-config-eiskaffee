@@ -38,9 +38,13 @@ Create this command in your `package.json` to fix automatically litte bugs like 
 npm run esfix
 ```
 
+## VS Code ESLint extension <img src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/1.4.5/1517498380672/Microsoft.VisualStudio.Services.Icons.Default" width="80" align="right">
+
+You have to install [ESLint Extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) into VS Code first.
+
 ## Auto fix on save
 
-If you've been using VSCode, try this config below in your `vscode-settings`. It should be fix your code from the **ESLint** config.
+If you've been using VS Code, try this config below in your `vscode-settings`. It should be fix your code from the **ESLint** config.
 If you know how to configure it in another editors, just contribute with this project ;)
 
 ```json
