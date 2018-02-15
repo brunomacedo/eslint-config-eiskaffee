@@ -7,11 +7,11 @@ It is just a simple styleguide, so If you prefer indentation with tabs and if yo
 ## Installation
 
 ```prompt
-npm i -D eslint eslint-plugin-import eslint-plugin-react
+npm install -D eslint eslint-plugin-import eslint-plugin-react
 ```
 
 ```prompt
-npm i -D eslint-config-eiskaffee
+npm install -D eslint-config-eiskaffee
 ```
 
 ## Usage
