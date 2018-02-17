@@ -1,10 +1,10 @@
 {
 	"name": "eslint-config-eiskaffee",
-	"version": "1.0.18",
+	"version": "1.0.19",
 	"description": "It is just a simple styleguide.",
 	"main": "index.js",
 	"scripts": {
-		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\""
+		"esfix": "./node_modules/.bin/eslint --fix \"**/*.{js,jsx}\" || ECHO."
 	},
 	"files": [
 		"rules",
