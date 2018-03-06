@@ -24,7 +24,7 @@ Create the file `.eslintrc`.
 }
 ```
 
-## Fix litte bugs
+## Fix little bugs
 
 Create this command in your `package.json` to fix automatically litte bugs like breaklines and convert quotes.
 
